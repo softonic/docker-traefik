@@ -1,5 +1,9 @@
 # softonic/traefik
 
+[![](https://images.microbadger.com/badges/image/softonic/traefik.svg)](https://microbadger.com/images/softonic/traefik "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/softonic/traefik.svg)](https://microbadger.com/images/softonic/traefik "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/commit/softonic/traefik.svg)](https://microbadger.com/images/softonic/traefik "Get your own commit badge on microbadger.com")
+
 Extension of the official image that provides a self-healing mechanism (Docker 1.12+ required).
 
 ## Usage
