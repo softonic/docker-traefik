@@ -1,4 +1,4 @@
-FROM traefik:v1.2.0-alpine
+FROM traefik:v1.2.3-alpine
 
 ARG "version=0.1.0-dev"
 ARG "build_date=unknown"
@@ -22,4 +22,4 @@ LABEL org.label-schema.vendor="Softonic" \
 RUN apk add --no-cache curl
 
 HEALTHCHECK --interval=10s --timeout=2s --retries=3 \
-  CMD curl -I -k --connect-timeout 2 --resolve foo-bar.com:443:127.0.0.1 https://foo-bar.com/ || exit 1
+  CMD curl -I -k --:connect-timeout 2 --resolve foo-bar.com:443:127.0.0.1 https://foo-bar.com/ || exit 1
