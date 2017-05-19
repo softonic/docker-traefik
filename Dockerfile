@@ -1,4 +1,4 @@
-FROM traefik:v1.2.3-alpine
+FROM traefik:v1.3.0-alpine
 
 ARG "version=0.1.0-dev"
 ARG "build_date=unknown"
